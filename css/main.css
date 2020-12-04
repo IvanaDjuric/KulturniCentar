@@ -515,24 +515,45 @@ form span{
 
 @media screen and (max-width: 480px) {
 	h1{
-		font-size: 1.5em !important;
+		font-size: 1.1em !important;
 		text-align: center;
 		margin-left: 15px;
 		margin-top: 20px;
 	}
 	h2{
-		font-size: 1.2em !important;
+		font-size: 1em !important;
 		text-align: center;
 		margin-left: 15px;
 	}
+	h3{
+		font-size: 1em;
+	}
+	h4{
+		padding-top: 30px;
+		font-size: 0.9em;
+	}
+	span{
+		font-size: 0.8em;
+	}
+	p{
+		font-size: 0.9em;
+	}
+
+
+	.header-title{
+		background-color: transparent;
+	}
 	.img-logo a img{
-		width: 100px;
-		height: 100px;
-		margin: 5px;
+		width: 85px;
+		height: 85px;
+		margin: 0 -15px;
 
 	}
 	.navbar{
+		position: absolute;
+		top: 20%;
 		width: 100%;
+		z-index: 1;
 	}
 	div.col-md-6{
 		display: block;
@@ -543,37 +564,69 @@ form span{
 		max-width: 100%;
 	}
 
-	main .container{
+	main>.container{
+		
 	margin-bottom: 5px !important;
+	
 }
 
 	.container img{
 		max-width: 100%;
 	}
+
+	.p-home{
+		padding-top: 15px;
+		font-size: 1.2em;
+	}
+	.home-list{
+		font-size: 1em;
+	}
+
 	.col-md-3{
 		width: 25%;
 		font-size: 14px;
 	}
-	.kontakt-icons {
-		display: flex;
-	}
+
 	.col-lg-4{
 		margin-bottom: 10px;
 	}
 	.col-lg-8 img{
-		width: 150px;
-		height: 200px;
+		width: 100px;
+		height: 150px;
+	}
+	.img-1{
+		top: 30%;
+	}
+	.img-2{
+		top: 10%;
+		left: 5%;
 	}
 	
 	.img-4{
-		position: absolute;
-		right: 6% !important;
-		bottom: 5px;
+		right: 6%;
+		bottom: 30%;
 	}
 	.img-6{
-		position: absolute;
-		bottom: 5px ;
-		left:2px !important;
+		bottom: 30% ;
+		left:5%;
+	}
+	.img-8{
+		bottom: 30%;
+	}
+	.foto1, .foto3, .foto5, .foto8{
+		width: 150px !important;
+		height: 100px !important;
+	}
+	.foto1{
+		top: 30%;
+		right: 30%;
+	}
+	.foto4{
+		top: 30%;
+	}
+	.foto8{
+		top: 50%;
+		left: 30%;
 	}
 
 	iframe{
@@ -593,12 +646,17 @@ form span{
 		width: 400px;
 		height: 250px;
 	}
+
+	.kontakt-icons {
+		display: flex;
+	}
 	form{
 		margin-bottom: 10px;
 	}
 	.d-none{
 		display: inline !important;
 	}
+}
 
 }
 
