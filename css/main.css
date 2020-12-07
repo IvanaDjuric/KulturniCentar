@@ -673,7 +673,11 @@ form span{
 		font-size: 0.7em;
 	}
 
-	footer>.small{
+	footer{
+		margin-bottom: 0;
+	}
+
+	.kontakt-info{
 		font-size: 0.8em;
 	}
 	.d-none{
