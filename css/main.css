@@ -31,10 +31,7 @@ h4{
 	padding-top: 10px;
 }
 
-main .container{
-	padding-bottom: 20px;
-	background-color: #2db92d;
-}
+
 
 
 nav{
@@ -44,6 +41,12 @@ nav{
 
 main{
 	padding-top: 35px;
+	background: linear-gradient(to bottom, #228b22 0%, #2db92d 100%);
+}
+
+main .container{
+	padding-bottom: 40px;
+	
 }
 
 main .container .row h2{
@@ -81,7 +84,6 @@ form span{
 .container{
 	width: 1200px;
 	padding-top: 20px;
-	margin-bottom: 25px;
 	position: relative;
 
 }
@@ -106,7 +108,6 @@ form span{
 	top: 15px;
 	left: 30%;
 	text-align: center;
-	background-color: #2db92d;
 	padding: 10px 15px;
 }
 
@@ -186,9 +187,7 @@ form span{
 	padding-right: 0;
 }
 
-.col-md-6, .col-lg-6 {
-	background-color: #2db92d;
-}
+
 
 .col-lg-6>iframe{
 	padding-top: 5px;
@@ -213,8 +212,9 @@ form span{
 .img-logo img{
 	width: 120px;
 	height: 120px;
-	background-color: #46d246;
-	margin: 15px 0px 5px 70px;
+	background-color: #cccccc;
+	border-radius: 5px;
+	margin: 15px 0px 5px 80px;
 
 }
 
@@ -527,6 +527,7 @@ form span{
 	}
 	h3{
 		font-size: 1em;
+		padding-bottom: 10px;
 	}
 	h4{
 		padding-top: 30px;
@@ -566,7 +567,7 @@ form span{
 
 	main>.container{
 		
-	margin-bottom: 5px !important;
+	padding-bottom: 5px !important;
 	
 }
 
@@ -580,6 +581,7 @@ form span{
 	}
 	.home-list{
 		font-size: 1em;
+		padding-top: 10px;
 	}
 
 	.col-md-3{
@@ -588,7 +590,10 @@ form span{
 	}
 
 	.col-lg-4{
-		margin-bottom: 10px;
+		margin-bottom: 30px;
+	}
+	.col-lg-6>iframe{
+		padding-bottom: 15px;
 	}
 	.col-lg-8 img{
 		width: 100px;
@@ -629,6 +634,11 @@ form span{
 		left: 30%;
 	}
 
+	.card_herba{
+		margin: 25px auto;
+		display: block;
+	}
+
 	iframe{
 		width: 250px;
 		height: 150px;
@@ -652,6 +662,19 @@ form span{
 	}
 	form{
 		margin-bottom: 10px;
+	}
+	.form-group>label{
+		font-size: 1em;
+	}
+	.form-group>input{
+		font-size: 0.8em;
+	}
+	#emailHelp{
+		font-size: 0.7em;
+	}
+
+	footer>.small{
+		font-size: 0.8em;
 	}
 	.d-none{
 		display: inline !important;
