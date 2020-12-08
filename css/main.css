@@ -540,6 +540,9 @@ form span{
 		font-size: 0.9em;
 	}
 
+	main{
+	background: linear-gradient(to bottom, #228b22 0%, #239023 100%);
+}
 
 	.header-title{
 		background-color: transparent;
